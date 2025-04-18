@@ -50,6 +50,27 @@ Estas herramientas permiten transformar descripciones en modelos 3D listos para 
 
 ---
 
+### Colab de google
+
+Puedes ejecutar estas herramientas en **Google Colab**, pero algunas requieren configuraciones adicionales. 🚀  
+
+
+Si buscas algo **rápido y eficiente**, **Shap-E** es una excelente opción. 
+
+🔹 **Shap-E (OpenAI)** → Recomendado si quieres generar **modelos 3D desde texto e imágenes**. Se puede instalar en Colab con:  
+   ```python
+   !git clone https://github.com/openai/shap-e.git
+   !pip install -r shap-e/requirements.txt
+   ```
+
+🔹 **3DTopia** → Ideal para generación avanzada de objetos 3D con texto. Para ejecutarlo en Colab:  
+   ```python
+   !git clone https://github.com/3DTopia/3DTopia.git
+   !pip install -r 3DTopia/requirements.txt
+   ```
+
+🔹 **Meshy AI** → Más simple, se ejecuta desde su web, pero puedes enviar prompts desde Python.  
+
 
 # Todas estas herramientas tienen código abierto en GitHub, por lo que puedes probarlas sin costo. 🚀
 
